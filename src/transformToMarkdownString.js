@@ -47,6 +47,8 @@ function transformMarkdownKeyValueToString(
           `${newLineAndIndent(markdownString, depth)}${key}:`
         );
       }
+    } else if (typeof value === "number") {
+      return `${newLineAndIndent(markdownString, depth)}${key}: ${value}`;
     } else {
       return `${newLineAndIndent(markdownString, depth)}${key}: "${value}"`;
     }
