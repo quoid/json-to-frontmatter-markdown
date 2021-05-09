@@ -11,9 +11,10 @@ The following request, will result in the below markdown file on location /Users
       frontMatter: [
         { var1: 'this is a string'},
         { var2: ['this is an array', 'element2']},
+        { num1: 23 },
         { obj1: {
           var3: "var3"
-        }}
+        }},
       ],
       body: `
         # h1 Heading 8-)
@@ -34,6 +35,7 @@ Result:
 ---
 var1: "this is a string"
 var2: ["this is an array","element2"]
+num1: 23
 obj1:
   var3: "var3"
 ---
