@@ -1,6 +1,6 @@
 {
   "name": "json-to-frontmatter-markdown",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Transform json to a markdown file with frontmatter and body",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easybird/json-to-frontmatter-markdown.git"
+    "url": "git+https://github.com/quoid/json-to-frontmatter-markdown.git"
   },
   "keywords": [
     "json",
@@ -27,9 +27,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/easybird/json-to-frontmatter-markdown/issues"
+    "url": "https://github.com/quoid/json-to-frontmatter-markdown/issues"
   },
-  "homepage": "https://github.com/easybird/json-to-frontmatter-markdown#readme",
+  "homepage": "https://github.com/quoid/json-to-frontmatter-markdown#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
