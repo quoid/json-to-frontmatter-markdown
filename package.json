@@ -22,6 +22,9 @@
     "md"
   ],
   "author": "Easybird",
+  "contributors": [
+    "Justin Wasack"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/easybird/json-to-frontmatter-markdown/issues"
