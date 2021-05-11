@@ -4,6 +4,8 @@ This library has only one feature:
 Transform a javascript object to markdown with frontmatter, and write it to a markdown file on a specified location.
 -----
 
+> The only difference between this and [easybird/json-to-frontmatter-markdown](https://github.com/easybird/json-to-frontmatter-markdown) is that numbers are **not** converted when transforming.
+
 The following request, will result in the below markdown file on location /Users/user/path/to/dir/fileName.md:
 ```javascript
   transformAndWriteToFile({
